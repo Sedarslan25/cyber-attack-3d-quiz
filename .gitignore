@@ -1,0 +1,28 @@
+# Local settings and sensitive files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.unitypackage
+
+# Editor and build output
+.vs/
+.vscode/
+*.user
+[Bb]in/
+[Oo]bj/
+
+# Unity-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
